@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  KZBaseProject
+//
+//  Created by 孔志林 on 2018/6/7.
+//  Copyright © 2018年 KMingMing. All rights reserved.
+/**
+ *  $(SRCROOT)/FGO/PrefixHeader.pch
+ */
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+/**  宏定义、工具类  */
+#import "KZMacro.h"
+#import "KZRequest.h"
+#import "KZHelper.h"
+
+/**  第三方  */
+#define MAS_SHORTHAND_GLOBALS
+#define MAS_SHORTHAND
+#import <Masonry.h>
+#import <StreamSniffing/StreamSniffing.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+/**  分类  */
+#import "NSString+KZUtils.h"
+#import "NSDictionary+KZUtils.h"
+#import "NSArray+KZUtils.h"
+#import "UIColor+KZUtils.h"
+#import "UIImage+KZUtils.h"
+#import "UIView+KZUtils.h"
+#import "UIButton+KZUtils.h"
+#import "NSObject+KZUtils.h"
+#import "UIScrollView+KZMJRefresh.h"
+#import "NSObject+KZProgressHUD.h"
+#import "NSObject+KZAFNetWorking.h"
+
+#import "FGSettingViewModel.h"
+#define kcurrentUserName [FGSettingViewModel sharedInstance].currentUserName
+#define kHeroLevel [NSString stringWithFormat:@"kHeroLevel_%@",kcurrentUserName]
+
+#define kTableName(name) [NSString stringWithFormat:@"%@_%@",name,kcurrentUserName]
+
+#define kName [FGSettingViewModel sharedInstance].name
+
+
+
+
+#endif /* PrefixHeader_pch */

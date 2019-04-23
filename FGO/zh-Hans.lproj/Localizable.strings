@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  FGO
+
+  Created by 孔志林 on 2018/11/15.
+  Copyright © 2018年 KMingMing. All rights reserved.
+ 
+ 
+ 
+ 首先，我们需要一个正则，去匹配工程中所有需要替换的文本。如果你不太了解正则，点我点我！！。
+ 
+ 下面这个正则可以匹配到所有符合OC字符串格式的包含有中文的字符串。如果你用Swift，请去掉@。
+ 
+ @"[^"]*[\u4E00-\u9FA5]+[^"\n]*?"
+ 
+ 然后，重点来了。Command+Shift+F，进入全局搜索引擎，切换为Replace模式，并把匹配模式改为Regular Expression。
+ 
+ 在搜索条件里输入(@"[^"]*[\u4E00-\u9FA5]+[^"\n]*?")，在下面替换内容里输入NSLocalizedString($1, nil)。此处正则表达式两边加括号的目的是为了能够在替换时用$1获取原有字符串的值，在替换时把原有值放入宏定义内key的位置。然后，搜索，可以看到搜索结果，点击Replace All，即可完成替换。
+ 
+ 作者：金小白先生
+ 链接：https://www.jianshu.com/p/7cb0fad6d06f
+ 來源：简书
+ 简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+ 
+ 
+ 
+ 
+ 
+ 
+*/
+"Done" = "完成";
+"photos" = "个图片";
+"of" = "/";

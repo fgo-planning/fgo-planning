@@ -1,0 +1,6 @@
+framework module StreamSniffing {
+  umbrella header "StreamSniffing.h"
+
+  export *
+  module * { export * }
+}

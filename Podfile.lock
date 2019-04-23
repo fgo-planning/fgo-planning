@@ -1,0 +1,160 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - DACircularProgress (2.3.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GCDWebServer (3.4.2):
+    - GCDWebServer/Core (= 3.4.2)
+  - GCDWebServer/Core (3.4.2)
+  - HCSStarRatingView (1.5)
+  - iCarousel (1.8.3)
+  - IQKeyboardManager (5.0.8)
+  - JSONModel (1.2.0)
+  - KRVideoPlayer (1.0.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.15)
+  - MJRefresh (3.1.15.3)
+  - MLTransition (2.1.3)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - "SDWebImage (!= 3.7.2, ~> 3.7)"
+  - PinYin4Objc (1.1.1)
+  - PYSearch (0.9.0)
+  - RKNotificationHub (2.0.5)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.5)
+  - Toast (4.0.0)
+  - TZImagePickerController (2.1.6)
+  - WMPageController (2.5.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - BlocksKit (~> 2.2.5)
+  - ChameleonFramework
+  - FMDB (~> 2.6.2)
+  - GCDWebServer (~> 3.0)
+  - HCSStarRatingView (~> 1.5)
+  - iCarousel (~> 1.8.3)
+  - IQKeyboardManager (~> 5.0.2)
+  - JSONModel (~> 1.2.0)
+  - KRVideoPlayer
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.9)
+  - MLTransition (~> 2.1.3)
+  - MWPhotoBrowser (~> 2.1.2)
+  - PinYin4Objc (~> 1.1.1)
+  - PYSearch
+  - RKNotificationHub
+  - SAMKeychain
+  - SDWebImage (~> 3.8.2)
+  - SVProgressHUD (~> 2.2.5)
+  - Toast (~> 4.0.0)
+  - TZImagePickerController
+  - WMPageController (~> 2.5.2)
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BlocksKit
+    - ChameleonFramework
+    - DACircularProgress
+    - FMDB
+    - GCDWebServer
+    - HCSStarRatingView
+    - iCarousel
+    - IQKeyboardManager
+    - JSONModel
+    - KRVideoPlayer
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MLTransition
+    - MWPhotoBrowser
+    - PinYin4Objc
+    - PYSearch
+    - RKNotificationHub
+    - SAMKeychain
+    - SDWebImage
+    - SVProgressHUD
+    - Toast
+    - TZImagePickerController
+    - WMPageController
+    - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  KRVideoPlayer: 08918da1b99cae35fd4c15b2ec2b49358d4c985f
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 3f039575db1b135a20699ad298713b26acec1528
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  MLTransition: 8ebe393aedfb61507202085a5bb16c7b17363e43
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  PinYin4Objc: 3fa9673610368330e2dfb688b1d19a35c3930a78
+  PYSearch: 55175e6046e2e1b5236a90c780351988e914a015
+  RKNotificationHub: e926748820d719f21ff374657a47fceefa1796b4
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TZImagePickerController: bc25e933c9d970a622d052f0d4de16202bbcd863
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: ecbc91346ffa88b8736787acb1e5b693d0a51e05
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arr</key>
+	<array>
+		<dict>
+			<key>topTitle</key>
+			<string>账号设置</string>
+			<key>title</key>
+			<string>当前账号</string>
+			<key>detail</key>
+			<string>默认</string>
+		</dict>
+		<dict>
+			<key>topTitle</key>
+			<string>数据同步工具</string>
+			<key>title</key>
+			<string>数据同步功能</string>
+			<key>detail</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
